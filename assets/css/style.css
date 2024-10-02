@@ -34,6 +34,9 @@ header {
     background-color: #B28756;
     border-radius: 40px;
 }
+.menu-opener {
+    display: none;
+}
 .menu {
     flex:1;
     display:flex;
@@ -843,7 +846,16 @@ header {
 }
 
 @media (min-width:450px) and (max-width:800px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
     nav {
+        display: none;
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
@@ -866,6 +878,7 @@ header {
     }
     .menu li.active a {
         border: 0;
+        color: #B28756;
     }
 }
 
