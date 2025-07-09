@@ -1,7 +1,6 @@
 AWAX Landing Page
 Projeto de uma landing page responsiva desenvolvido para praticar HTML, CSS e JavaScript básico.
 
-🔗 Ver página online
 
 Tecnologias
 HTML5
